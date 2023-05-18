@@ -5,7 +5,7 @@ const app = express() ;
 app.use(express.json()) ;
 
 app.get("/" , ( req , res )=>{
-    res.json("its work ...!") ;
+    res.send("its work ...!") ;
 })
 
 
