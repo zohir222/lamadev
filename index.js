@@ -12,6 +12,6 @@ const userRoute = require('./routes/users') ;
 
 app.use("/user" , userRoute ) ;
 
-app.listen( process.env.PORT || 3010 , ()=> {
+app.listen( process.env.PORT || 3011 , ()=> {
     console.log(`**********server runningn port 3010  *************`);
 } )
